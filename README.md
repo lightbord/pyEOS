@@ -10,7 +10,7 @@ I am by no means a Python developer. In fact I'm only toe deep into the vast oce
 ## Requirements for code used in live production
 Because this code has the potential to be used in live production (theatrical or otherwise), I feel it isn't unreasonable to make a few requests of anyone who will be contributing to the development of pyEOS. I hope these go without saying, but better to be sure.
 * Your code must be tested against the current (as of when you submit your code) version of ETC's EOS Family software. If at all possible, test it with a console, and tell us which. If you don't have access to a console, you can download Nomad from ETC's website.
-* Your code must not break any other features of pyEOS. If it looks like something you're working on will interfere with everything else, hold off on releasing it until it doesn't break anything else. The last thing anyone would want is to update their version of pyEOS, and suddenly not be able to `eos.go()`.
+* Your code must not break any other features of pyEOS. If it looks like something you're working on will interfere with everything else and you're having trouble fixing it, hold off on releasing it until it doesn't break anything else, and the rest of the devlopment of pyEOS can move along. The last thing anyone would want is to update their version of pyEOS, and suddenly not be able to `eos.go()`.
 * If you find a bug in ETC's OSC implementation, please report it to them, and avoid using that function in pyEOS until ETC has resolved that bug.
 
 More (including some code) coming in the next few days...
