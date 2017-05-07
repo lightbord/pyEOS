@@ -13,4 +13,7 @@ Because this code has the potential to be used in live production (theatrical or
 * Your code must not break any other features of pyEOS. If it looks like something you're working on will interfere with everything else and you're having trouble fixing it, hold off on releasing it until it doesn't break anything else, and the rest of the devlopment of pyEOS can move along. The last thing anyone would want is to update their version of pyEOS, and suddenly not be able to `eos.go()`.
 * If you find a bug in ETC's OSC implementation, please report it to them, and avoid using that function in pyEOS until ETC has resolved that bug.
 
+## Dependencies and licensing
+Currently pyEOS relies on pyOSC (available at https://github.com/ptone/pyosc). This is how it talks to EOS. As such it is bound to the GPLv3, and as such is licensed that way.
+
 More (including some code) coming in the next few days...
