@@ -17,3 +17,6 @@ Because this code has the potential to be used in live production (theatrical or
 Currently pyEOS relies on pyOSC (available at https://github.com/ptone/pyosc). This is how it talks to EOS. As such it is bound to the GPLv3, and as such is licensed that way.
 
 More (including some code) coming in the next few days...
+
+## Thanks
+I'd be remiss if I didn't say thank you to the wonderful folks at Electronic Theatre Controls for their incredible hardware, software, and general, all around awesomeness. And by the way, EOS and Nomad are trademarks of ETC.
