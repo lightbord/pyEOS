@@ -1,5 +1,5 @@
 # pyEOS
-A Python library for controlling ETC EOS Family lighting consoles using OSC.
+A Python library for controlling ETC EOS Family lighting consoles (you should check them out at http://www.etcconnect.com/Products/Consoles/Eos-Family/, they're awesome) using OSC.
 
 ## Why pyEOS?
 pyEOS was created for one simple reason. When developing software to interact with EOS, I wanted to leave as much of the OSC work out of it. I wanted something that could be as simple as `eos.go()`, `eos.stopback()` or `eos.macro(1)`. That simple. One line, one function. But that doesn't mean that's all it can do, or should do. Future features will include the ability to easily listen for events such as a specific cue, or sub bump, or macro, or anything else!
